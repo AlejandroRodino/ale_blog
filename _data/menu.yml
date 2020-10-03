@@ -1,0 +1,14 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: Menu
+    url: false
+    entries:
+      - title: Papers
+        url: https://riggraz.dev/
+      - title: Classes
+        url: https://riggraz.dev/
+      - title: Public Data Bases
+        url: https://riggraz.dev/
+      - title: R Packages
