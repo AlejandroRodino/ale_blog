@@ -1,7 +1,7 @@
 title: My Own Library # name of the site
 author: Alejandro Rodiño # name of site's author
 email: arodino@fen.uchile.cl # email of site's author
-url: "ale_blog" # root address of the site
+url: "" # root address of the site
 description: > # description of the site (multiple lines allowed)
   ================================================================================================
   <p style="margin-left:2.5em">This repository was created by me so i could keep track of papers, classes, or other useful things that i
