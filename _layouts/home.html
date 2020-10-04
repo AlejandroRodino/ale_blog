@@ -11,16 +11,11 @@ layout: default
     | <a href="#Me myself and I ">Notes</a>
     | <a href="#Me myself and I ">Me, myself & I</a>
 
-
+    {% if site.theme_config.show_description == true %}
+      <p>{{ site.description }}</p>
+    {% endif %}
 </header>
 
-<p style="margin-left:2.5em">This repository was created by me so i could keep track of papers, classes, or other useful things that i
-thought were interesting and it would be nice to have them at the reach in any point in time.  <br>
- <br>
-I'm a 4th year student in Economics at the University of Chile.<br>
-Currently in the pursue of learning about Behavioural Economics, Economics of Education, Health Economics and also i like programming.
-
-</p>
 
 <body>
   <p>
