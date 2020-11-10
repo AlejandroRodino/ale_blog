@@ -21,7 +21,7 @@ theme: riggraz/no-style-please # if you are using GitHub Pages, change it to rem
 
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
-  back_home_text: "Atrás" # customize text for homepage link in post layout
+  back_home_text: "Atráss" # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description in home page
   show_email: true #
