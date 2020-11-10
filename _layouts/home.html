@@ -9,10 +9,29 @@ p {text-align: center;}
 div {text-align: center;}
 </style>
 
+  <h1>{{ site.title }}</h1>
   <p>
+
      <a href="papers.html">Papers</a>
     | <a href="classes.html">Classes</a>
     | <a href="public-data-bases.html">Public Data Bases</a>
     | <a href="notes.html">Notes</a>
     | <a href="me-myself.html">Me, myself & I</a>
+
+    {% if site.theme_config.show_description == true %}
+      <p>{{ site.description }}</p>
+    {% endif %}
 </header>
+
+
+<body>
+  <p>
+    © 2020
+      <a href="index.html">Alejandro Rodiño</a>
+    | <a href="mailto:arodino@fen.uchile.cl">Email</a>
+    | <a href="https://github.com/AlejandroRodino/">Github</a>
+    | <a href="https://www.linkedin.com/in/alejandro-rodi%C3%B1o-climent-ab257a1a3/">Linkedin</a>
+
+
+    <p>
+</body>
